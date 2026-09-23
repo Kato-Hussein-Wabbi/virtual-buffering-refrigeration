@@ -1,15 +1,13 @@
-# Versions recorded for the completed analysis
+# Tested with Python 3.12.13
 numpy==1.26.4
 pandas==3.0.2
 scikit-learn==1.8.0
 tensorflow==2.21.0
 keras==3.14.0
-
-# Used by the notebook; exact versions were not recorded
-scipy
-matplotlib
-seaborn
-joblib
-openpyxl
-ipython
-jupyterlab
+scipy==1.17.1
+matplotlib==3.10.8
+seaborn==0.13.2
+joblib==1.5.3
+openpyxl==3.1.5
+ipython==9.12.0
+ipykernel==7.2.0
