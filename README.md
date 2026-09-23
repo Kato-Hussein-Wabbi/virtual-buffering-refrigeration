@@ -16,7 +16,7 @@ The three datasets contain 310,225 aligned observations in total: 280,571 for mo
 
 ## Reproduce the analysis
 
-Use Python 3.12.13 and the packages listed in [`requirements.txt`](requirements.txt). The versions of Python, NumPy, pandas, scikit-learn, TensorFlow, and Keras recorded for the completed analysis are pinned there; exact versions of the remaining plotting and utility packages were not recorded.
+Use Python 3.12.13 and the exact package versions listed in [`requirements.txt`](requirements.txt). These versions were recorded from the virtual environment used for the completed analysis.
 
 1. Keep the repository folder structure intact and install the dependencies in a fresh Python environment.
 2. Open `notebooks/virtual_buffering_analysis.ipynb` from within this repository and run all cells in order. The notebook finds `data/` and writes its results under `outputs/`.
