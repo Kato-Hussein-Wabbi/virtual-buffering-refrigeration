@@ -1,0 +1,8 @@
+Event,Elapsed time,Calendar time (UTC−4),Duration,Notes
+Run start,t0,1 Sep 2026 11:37,—,Origin specified in the experimental notes
+First door opening,t153–t176,1 Sep 2026 14:10–14:33,23 min,Door remained open
+Cooling interrupted,t234,1 Sep 2026 15:31,5.6 h,Refrigerator power switched off
+Cooling restored,t570,1 Sep 2026 21:07,—,Refrigerator power restored
+Second door opening,t1275–t1295,2 Sep 2026 08:52–09:12,20 min,Door remained open
+Setpoint +5 to 0 °C,t1429.2,2 Sep 2026 11:26:13,—,First raw sample reporting the new setpoint
+Setpoint 0 to +5 °C,t1606.2,2 Sep 2026 14:23:14,—,First raw sample reporting the restored setpoint

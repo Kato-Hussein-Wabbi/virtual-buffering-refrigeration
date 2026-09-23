@@ -1,0 +1,6 @@
+Schedule,Setpoint sequence,Dwell time,Purpose and cycle behaviour
+Nominal storage,+5 °C,Continuous,Characterized routine temperature-control cycling and provided a baseline for manually imposed challenges.
+Ordered sweep,"−20, −15, −10, −5, 0, +5, +10, +15 and +20 °C",2 h per step (initial scheduler); 1.5–2.5 h per step (later scheduler),The initial scheduler completed one sweep and then held +20 °C; the later scheduler repeated the sweep within a multi-mode cycle.
+Randomized sweep,"The same nine setpoints from −20 to +20 °C, each used once per cycle in randomized order",1–3 h per step,Generated a new setpoint order and dwell time for each cycle.
+Alternating extremes,"+20, −20, +15, −15, +10, −10, +5, −5 and 0 °C",0.75–2 h per step,Formed the stress cycle in a repeating ordered → randomized → randomized → stress plan.
+Controlled excursion,+5 → +20 → +5 → 0 → +5 → −20 → +5 °C,"8, 4, 8, 2, 8, 4 and 8 h, respectively",Repeated after the final +5 °C recovery hold.

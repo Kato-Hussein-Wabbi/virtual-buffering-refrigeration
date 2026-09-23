@@ -1,0 +1,5 @@
+Dataset role,Collection period,"Continuous segments, n","Observations, n","Median segment duration, h","Minimum segment duration, h","Maximum segment duration, h"
+Training,12 Oct 2025–9 Jun 2026,86,224493,23.253194444444446,0.30027777777777775,301.78472222222223
+Validation,15 Jun 2026–24 Jul 2026,4,56078,252.91166666666666,96.85833333333333,332.0538888888889
+Original holdout,24 Jul 2026–12 Aug 2026,3,26810,185.65444444444447,64.2225,197.0052777777778
+Prospective operational challenge,1 Sep 2026–3 Sep 2026,1,2844,47.402499999999996,47.402499999999996,47.402499999999996

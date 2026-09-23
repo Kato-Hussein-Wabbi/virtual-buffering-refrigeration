@@ -1,0 +1,9 @@
+split,Dataset,Temperature input,Excursion state,"Reference excursion duration, min","Excursion PPV, %","Missed reference-excursion duration, min","Missed reference-excursion duration, %","False-positive excursion duration, min"
+original_holdout,Original holdout,"Refrigerator-reported BLE temperature, T_BLE",Cold (<2 °C),2507.0,89.93879112471308,156.0,6.222576785001994,263.0
+original_holdout,Original holdout,"Refrigerator-reported BLE temperature, T_BLE",Hot (>8 °C),2168.0,81.45193458316713,126.0,5.8118081180811805,465.0
+original_holdout,Original holdout,"BME280 air temperature, T_280",Cold (<2 °C),2507.0,99.8709122203098,186.0,7.419226166733147,3.0
+original_holdout,Original holdout,"BME280 air temperature, T_280",Hot (>8 °C),2168.0,93.77738825591587,28.0,1.2915129151291513,142.0
+prospective_challenge,Prospective operational challenge,"Refrigerator-reported BLE temperature, T_BLE",Cold (<2 °C),148.0,100.0,1.0,0.6756756756756757,0.0
+prospective_challenge,Prospective operational challenge,"Refrigerator-reported BLE temperature, T_BLE",Hot (>8 °C),359.0,97.97687861271676,20.0,5.571030640668524,7.0
+prospective_challenge,Prospective operational challenge,"BME280 air temperature, T_280",Cold (<2 °C),148.0,99.31506849315069,3.0,2.027027027027027,1.0
+prospective_challenge,Prospective operational challenge,"BME280 air temperature, T_280",Hot (>8 °C),359.0,97.52066115702479,5.0,1.392757660167131,9.0

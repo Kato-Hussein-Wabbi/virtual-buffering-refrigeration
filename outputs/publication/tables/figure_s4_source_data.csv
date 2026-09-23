@@ -1,0 +1,31 @@
+Temperature input,Dataset,Estimator,"Predictions, n","RMSE, °C","MAE, °C","Bias, °C","P95 absolute error, °C"
+"Refrigerator-reported BLE temperature, T_BLE",Validation,Direct input reference,55602,1.4682356487603196,1.2209506852271501,0.0002640192798820218,2.55
+"Refrigerator-reported BLE temperature, T_BLE",Validation,Instantaneous affine model,55602,1.401404529481094,1.1240140476044094,0.4304163539084255,2.6594806653185827
+"Refrigerator-reported BLE temperature, T_BLE",Validation,First-order thermal model,55602,0.9620816346715787,0.8343900450765467,0.7882285242150797,1.7303392073457715
+"Refrigerator-reported BLE temperature, T_BLE",Validation,Ridge temporal model,55602,0.8168960202268791,0.6667848607212725,0.5420465932514149,1.5767022821263577
+"Refrigerator-reported BLE temperature, T_BLE",Validation,Long short-term memory network,55602,0.4091990556409736,0.3202408730855662,-0.007279095122851454,0.7945257747909948
+"Refrigerator-reported BLE temperature, T_BLE",Original holdout,Direct input reference,26453,1.3487042765306543,1.1177501606623066,0.10079480588213056,2.26
+"Refrigerator-reported BLE temperature, T_BLE",Original holdout,Instantaneous affine model,26453,1.3409619478769539,1.1001372866901074,0.4757825302216278,2.649480665318583
+"Refrigerator-reported BLE temperature, T_BLE",Original holdout,First-order thermal model,26453,1.0981950431559533,0.9973342708208556,0.8646161662492925,1.9906504800740372
+"Refrigerator-reported BLE temperature, T_BLE",Original holdout,Ridge temporal model,26453,1.0563549613770824,0.9302124411944185,0.8050165692378018,1.988167482950295
+"Refrigerator-reported BLE temperature, T_BLE",Original holdout,Long short-term memory network,26453,0.47075280331232666,0.2940938942513587,0.013871022980906346,0.9733524251669002
+"Refrigerator-reported BLE temperature, T_BLE",Prospective operational challenge,Direct input reference,2725,1.60029178532077,1.285262385321101,-0.0547596330275229,2.8159999999999945
+"Refrigerator-reported BLE temperature, T_BLE",Prospective operational challenge,Instantaneous affine model,2725,1.5856356715318498,1.269823748494541,0.16279303153216065,2.9973155458201965
+"Refrigerator-reported BLE temperature, T_BLE",Prospective operational challenge,First-order thermal model,2725,1.2149612459077352,1.0897413502713615,0.63532205587478,1.9486623949610233
+"Refrigerator-reported BLE temperature, T_BLE",Prospective operational challenge,Ridge temporal model,2725,1.1513753287616824,1.0343222585205842,0.5664729704758249,1.858811871334908
+"Refrigerator-reported BLE temperature, T_BLE",Prospective operational challenge,Long short-term memory network,2725,0.4727748442131095,0.3905254044156211,0.028327430097465033,0.8844450946958747
+"BME280 air temperature, T_280",Validation,Direct input reference,55842,0.9582197111640757,0.8192793954371261,-0.7690802621682605,1.67
+"BME280 air temperature, T_280",Validation,Instantaneous affine model,55842,0.6476029460330691,0.5106490123234487,-0.35187342611055866,1.2462063532262126
+"BME280 air temperature, T_280",Validation,First-order thermal model,55842,0.3540593020328369,0.3291828096749525,-0.31692880426058606,0.49627010943120753
+"BME280 air temperature, T_280",Validation,Ridge temporal model,55842,0.3275762986601881,0.3015162789121561,-0.2977679927143778,0.4751646744706242
+"BME280 air temperature, T_280",Validation,Long short-term memory network,55842,0.1497835724638415,0.12102334109936136,0.007113601090785349,0.28736887751187334
+"BME280 air temperature, T_280",Original holdout,Direct input reference,26633,0.9800820037071649,0.768679833289528,-0.6557650283482898,1.8899999999999997
+"BME280 air temperature, T_280",Original holdout,Instantaneous affine model,26633,0.7314096105112775,0.5702281184992705,-0.2508917977193568,1.4692954971285666
+"BME280 air temperature, T_280",Original holdout,First-order thermal model,26633,0.2761860215136427,0.24827078192779412,-0.20830679137249794,0.4422672644013708
+"BME280 air temperature, T_280",Original holdout,Ridge temporal model,26633,0.23280932002983915,0.2103126594152118,-0.17847803618172162,0.37099815498745575
+"BME280 air temperature, T_280",Original holdout,Long short-term memory network,26633,0.21085778183131768,0.1762429898377092,0.16166322757584653,0.40144046789937127
+"BME280 air temperature, T_280",Prospective operational challenge,Direct input reference,2785,1.1060404900046032,0.9116660682226211,-0.7219281867145422,2.017999999999997
+"BME280 air temperature, T_280",Prospective operational challenge,Instantaneous affine model,2785,0.844371753396442,0.631138751790955,-0.3547972472327597,1.6423994339050092
+"BME280 air temperature, T_280",Prospective operational challenge,First-order thermal model,2785,0.3759232987846288,0.35402623800888133,-0.2872771798050817,0.530716533296361
+"BME280 air temperature, T_280",Prospective operational challenge,Ridge temporal model,2785,0.3204778889502962,0.2981233688341309,-0.2555225450377893,0.44677901613390936
+"BME280 air temperature, T_280",Prospective operational challenge,Long short-term memory network,2785,0.1811396538430083,0.12220992312793653,0.07431555713288045,0.41077172502472836

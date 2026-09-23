@@ -1,0 +1,7 @@
+label,start,end,source,previous_sample,elapsed_min_from_run_start
+Door open 1,2026-09-01 14:10:00,2026-09-01 14:33:00,Experimental notes: t153–t176,,153.0
+Power off,2026-09-01 15:31:00,,Experimental notes: t234,,234.0
+Cooling restored,2026-09-01 21:07:00,,Experimental notes: t570,,570.0
+Door open 2,2026-09-02 08:52:00,2026-09-02 09:12:00,"Experimental notes: t1275, duration 20 min",,1275.0
+Setpoint 5→0 °C,2026-09-02 11:26:13,,First raw sample reporting the new setpoint,2026-09-02 11:25:13,1429.2166666666667
+Setpoint 0→5 °C,2026-09-02 14:23:14,,First raw sample reporting the new setpoint,2026-09-02 14:22:14,1606.2333333333333

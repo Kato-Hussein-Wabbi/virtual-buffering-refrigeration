@@ -1,0 +1,11 @@
+Component,Temperature input,Specification
+Causal feature set,"Refrigerator-reported BLE temperature, T_BLE",T_BLE; 15- and 30-min rolling means; 15- and 30-min rolling standard deviations; exponential moving averages with 5- and 80-min time constants; departure from the 80-min exponential moving average clipped to ±3 °C
+Sequence and network,"Refrigerator-reported BLE temperature, T_BLE","120 observations; 8 features; LSTM (110 units); dense layer (16 units); dropout 0.20; 54,593 total parameters"
+Causal feature set,"BME280 air temperature, T_280",T_280; 5-min rolling mean; 15-min rolling standard deviation; exponential moving averages with 5- and 80-min time constants; departure from the 80-min exponential moving average clipped to ±3 °C
+Sequence and network,"BME280 air temperature, T_280","60 observations; 6 features; LSTM (110 units); dense layer (16 units); dropout 0.20; 53,713 total parameters"
+Feature scaling,Both temperature inputs,"Robust scaling using the training median and 10th–90th percentile range, fitted independently for each input"
+Target scaling,Both temperature inputs,Standard scaling of T_P1 fitted on training targets only; predictions inverse-transformed to °C
+Optimization and selection,Both temperature inputs,Adam optimizer; learning rate 0.0005; Huber(delta=1.0) on standardized T_P1; batch size 896; maximum 100 epochs; checkpoint selected by minimum validation loss
+Training control,Both temperature inputs,Learning rate reduced by one-half after 4 epochs without improvement in validation loss; early stopping after 7 epochs without improvement
+Reproducibility,Both temperature inputs,"Random seed 42 for Python, NumPy and TensorFlow; deterministic TensorFlow operations requested"
+Software environment,Both temperature inputs,Python 3.12.13; TensorFlow 2.21.0; Keras 3.14.0; scikit-learn 1.8.0; NumPy 1.26.4; pandas 3.0.2

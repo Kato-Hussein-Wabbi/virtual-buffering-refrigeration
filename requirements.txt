@@ -1,0 +1,15 @@
+# Versions recorded for the completed analysis
+numpy==1.26.4
+pandas==3.0.2
+scikit-learn==1.8.0
+tensorflow==2.21.0
+keras==3.14.0
+
+# Used by the notebook; exact versions were not recorded
+scipy
+matplotlib
+seaborn
+joblib
+openpyxl
+ipython
+jupyterlab
